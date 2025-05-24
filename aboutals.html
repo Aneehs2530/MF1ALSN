@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Education Website Template</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/ALS Logo.png" class="logo">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutals.html">About ALS</a></li>
+				<li><a href="update.html">Updates</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#" class="active">ENROLL NOW</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			About Alternative Learning System - ALS
+		</h2>
+		<p>EMPOWERING LIFELONG LEARNERS</p>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>ALS Offers</h1>
+		<p>ALS provides a second chance for individuals who were unable to complete their formal education.</p>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>Alternative Learning System:</h3>
+				<p>The Alternative Learning System (ALS) is a parallel education program in the Philippines designed for out-of-school youth and adults (OSYA). 
+				It offers non-formal and informal learning to help them gain basic literacy and complete basic education, providing flexible options suited to 
+				their needs.
+				Since 2016, ALS has undergone major reforms to improve quality, access, and relevance. Key developments include:
+
+				Enhanced ALS K to 12 Curriculum
+				ALS Program 2.0 and a 5-Year Strategic Roadmap
+				Monitoring & Evaluation System Handbook (2022)
+				ALS ICT Strategic Plan and Research Agenda (2022-2026)
+
+				The ALS Report 2023 documents progress and outlines recommendations for building a stronger, more inclusive second-chance education system, as envisioned in the 1986 Philippine Constitution.
+				The ALS K to 12 Curriculum is contextualized and aligned (but not identical) to the formal system, covering 
+				six learning strands:
+				Communication Skills (English & Filipino)
+				Scientific and Critical Thinking
+				Mathematical and Problem-Solving Skills
+				Life and Career Skills
+				Understanding the Self and Society
+				Digital Citizenship
+
+				ALS empowers OSYA learners to continue learning, improve their lives, and contribute to society.
+
+ </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>ALS K to 12 Basic Education Curriculum Learning Strands:</h3>
+				<p>Learning Strands                                 Skills
+					Learning Strand 1                       Communication Skills (English)
+                                                            Communication Skills (Filipino)
+					Learning Strand 2                       Scientific Literacy and Critical Thinking
+					Learning Strand 3   					Mathematical and Problem Solving Skills
+					Learning Strand 4						Life and Career Skills
+					Learning Strand 5						Understanding the Self and Society
+					Learning Strand 6						Digital Citizenship</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Community-Based Learning:</h3>
+				<p>ALS often emphasizes community-based learning, promoting self-help and community development. </p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Follow Us</h3>
+			<li>@ALSMF</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Email Us</h3>
+			<li>ALSMG@gmail.com</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+			<li>Tel #008-008-000</li>
+			<li>Phone #0906-999-0000</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Locate Us</h3>
+			<li>ALS Manolo Maps</li>
+		</div>
+
+		<div class="copyright">
+			<p>Copyright @ 2022 All rights reserved | This template is made by Me</p>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
